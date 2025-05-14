@@ -20,7 +20,7 @@
               <li><a href="rooms.html">Rooms</a></li>
               <li><a href="facilities.html">Facilities</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <li><a class="current" href="about.html">About</a></li>
+              <li><a class="current" href="book.html">Book Now</a></li>
             </ul>
         </div>
     </nav>
@@ -28,23 +28,103 @@
     <div id="about">
         <div class="container">
             <div class="about-content">
-                <h1>About Us</h1>
-                <p class="lead">Book your stay and enjoy Luxury
+                
+                <p class="lead">Please Fill the form below 
                     <br>            
-                redefined at the most affordable rates.</p>
+                    to book your stay with us</p>
                 <a class="btn" href="#">Send us a message</a>
             </div>
         </div>
     </div> 
 </Header>
-    <main>
-        <section>
-            <br>
-            <br>
-            <h2>Welcome to Our Hotel</h2>
-            <p>Our hotel offers the best services and amenities to make your stay unforgettable.</p>
-        </section>
-    </main>
+
+<div class="container-form">
+    <h1>Kyeston Hotels Nigeria Limited</h1>
+    <p>Experience something new every moment</p>
+
+    <form>
+        <div class="form-section">
+            <label class="form-label">Name<span class="form-required">*</span></label>
+            <div class="form-input">
+                <input type="text" name="first_name" placeholder="First Name" required>                        
+                <input type="text" name="last_name" placeholder="Last Name" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">E-mail<span class="form-required">*</span></label>
+            <div class="form-input">
+                <input type="email" name="email" placeholder="myname@example.com" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Phone Number<span class="form-required">*</span></label>
+            <div class="form-input">
+                <input type="tel" name="phone" placeholder="(000) 000-0000" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Address</label>
+            <div class="form-input">
+                <input type="text" name="address" placeholder="Street Address" required>
+                <input type="text" name="address_line2" placeholder="Street Address Line 2">
+                <input type="text" name="city" placeholder="City" required>
+                <input type="text" name="state" placeholder="State / Province" required>
+                <input type="text" name="zip" placeholder="Postal / Zip Code" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Room Type<span class="form-required">*</span></label>
+            <div class="form-input">
+                <select name="room_type" required>
+                    <option value="">Please Select</option>
+                    <option value="Deluxe Suite">Deluxe Suite (1 to 2 People)</option>
+                    <option value="Executive Suite">Executive Suite (1 to 4 People)</option>
+                    <option value="Diplomatic Suite">Diplomatic Suite (1 to 3 People)</option>
+                    <option value="Ambassadorial Suite">Ambassadorial Suite (3 People)</option>
+                    <option value="VIP Suite">VIP Suite (6 People)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Number of Guests<span class="form-required">*</span></label>
+            <div class="form-input">
+                <input type="number" name="number_of_guests" placeholder="e.g., 2" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Arrival Date & Time<span class="form-required">*</span></label>
+            <div class="form-input">
+                <input type="date" name="arrival_date" required>
+                <input type="time" name="arrival_time" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Departure Date<span class="form-required">*</span></label>
+            <div class="form-input">
+                <input type="date" name="departure_date" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label class="form-label">Special Requests</label>
+            <div class="form-input">
+                <textarea name="special_requests" rows="4" placeholder="Any special requests?"></textarea>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
     <footer class="footer">
         <p>&copy; 2024 Kyeston Hotel. All rights reserved.</p>
     </footer>

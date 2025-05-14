@@ -424,7 +424,7 @@ input[type="submit"]:hover {
     margin: 200px 300px;
 }
 
-/* About Us page */
+/* book now */
 #about{
     background: url('../img/photo_2.png') no-repeat center center/cover;
     height: 400px;
@@ -446,4 +446,68 @@ input[type="submit"]:hover {
     font-size: 25px;
     color: #4b0505;
     line-height: normal;
+}
+
+/* book now */
+.container-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    margin-bottom: 15px;
+    line-height: 2.9;
+}
+
+.form-input input, 
+.form-input select, 
+.form-input textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-input input::placeholder, 
+.form-input textarea::placeholder {
+    color: #aaa;
+}
+
+.form-input button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-input button:hover {
+    background-color: #0056b3;
 }
