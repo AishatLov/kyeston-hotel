@@ -389,33 +389,7 @@ input[type="submit"]:hover {
     background-color: #2d1504;
 }
 
-footer {display: grid;
-    background-color: #003366;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
 
-.footer-content {
-    display: inline;
-    margin-bottom: 10px;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
 
 #room{
     background: url('../img/roomcover.jpg') no-repeat center center/cover;
