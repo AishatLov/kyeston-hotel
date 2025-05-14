@@ -341,6 +341,11 @@ address {
     text-align: center;
     font-style: normal;
     margin-bottom: 5px;
+    padding: 50px 50px;
+    line-height: normal;
+    text-shadow: #080808 0px 0px 1px;
+    box-shadow: #080808 0px 0px 5px;
+    
 }
 
 .form__container {
@@ -354,7 +359,7 @@ address {
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #040c67;
 }
 
 .form--group {
@@ -389,8 +394,7 @@ input[type="submit"]:hover {
     background-color: #2d1504;
 }
 
-
-
+/* Room page */
 #room{
     background: url('../img/roomcover.jpg') no-repeat center center/cover;
     height: 600px;
