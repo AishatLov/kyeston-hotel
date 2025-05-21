@@ -285,11 +285,18 @@ p {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    padding-bottom: 60px;
 }
 
-#view-all {
+.view-all {
     text-align: center;
+    padding-top: 100px;
     margin-top: 100px;
+    color: #5b0707;
+}
+
+.view-all:hover {
+    color: #100669;
 }
 
 /* Responsive Adjustments */
