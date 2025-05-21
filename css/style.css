@@ -32,8 +32,16 @@ p {
     padding: 0 20px;
 }
 
-.text-primary {
-    color: #100669;
+.our {
+    color: #03035c;
+    text-align: left;
+    
+}
+
+.text-primary2 {
+    color: #066929;
+    text-align: center;
+    
 }
 
 .lead {
@@ -50,9 +58,12 @@ p {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+.btn:hover {
+    background: #5b0707;
+}
 
 .btn-hover {
-    background: #333;
+    background: #5b0707;
     color: #fff;
 }
 
@@ -64,10 +75,11 @@ p {
 .btn-dark {
     background: #333;
     color: #fff;
+    
 }
 
 .bg-dark {
-    background: #333;
+    background: #212121;
     color: #ffff
 }
 
@@ -230,7 +242,10 @@ p {
     border: #100669;
     border-radius: 5px;
 }
-
+.box button:hover {
+    background-color: #5b0707;
+    color: #fff;
+}
 .box  {
     width: 100%;
     height: auto;
@@ -239,14 +254,14 @@ p {
 
 /* Customer Reviews */
 .customer-reviews-container {
-    max-width: 1200px;
+    max-width: auto;
     margin-top: 70px;
-    margin-bottom: 70px;
-    padding: 10px;
-    padding-top: 70px;
+    margin-bottom: 70px;          
+    padding: 70px 200px;
     text-align: center;
     background: #0c0c0c url('../img/recp%202.jpg') no-repeat center center/cover;
-    background-color: #0c0c0c;
+    background-color: #ffffff;
+    box-shadow: #0c0c0c 0px 0px 5px;
 
 }
 
@@ -254,11 +269,17 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 100px, 100px;
 }
 
 .customer-reviews-container h2 {
     color: aqua;
+
+    
 }
+
 .review-card {
     background-color: #fff;
     border-radius: 8px;
@@ -266,12 +287,9 @@ p {
     padding: 20px;
 }
 
-/* Footer */
-.footer {
-    background-color: #1e1e6f;
-    color: #fff;
+#view-all {
     text-align: center;
-    padding: 10px;
+    margin-top: 100px;
 }
 
 /* Responsive Adjustments */
@@ -506,4 +524,13 @@ p {
 
 .form-input button:hover {
     background-color: #0056b3;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #1e1e6f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
