@@ -468,7 +468,7 @@ input[type="submit"]:hover {
 }
 
 /* Room page */
-/* #room{
+#room{
     background: url('../img/roomcover.jpg') no-repeat center center/cover;
     height: 600px;
     background-color: #0c0c0c;
@@ -481,19 +481,22 @@ input[type="submit"]:hover {
 .room-info{
     max-width: 1200px;
     margin: 0px auto;
-    padding: 20px;
-    text-align: center;  
-    background-color: #0c0c0c45;    
+    padding: 50px;
+    text-align: right;  
+    background-color: #0c0c0c45; 
+    justify-content: right;   
 }
 .rate{
     display: flex;
-    background-color: #0c0c0c;
+    background-color: #BA8D1A;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     font-size: 45px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
     margin: 200px 300px;
+    border-radius: 8px;
 } */
 
 /* book now */
